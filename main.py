@@ -5,7 +5,7 @@ def b_search(t, ls:list):
     mid = (f+l)//2
     while fou:
         if ls[mid]==t:
-            x = "found at:"+ mid
+            x = "found at:"+ str(mid)
             fou=False
         elif ls[mid]>t:
             l=mid-1
