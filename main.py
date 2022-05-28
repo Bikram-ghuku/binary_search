@@ -5,7 +5,7 @@ def b_search(t, ls:list):
     mid = (f+l)//2
     while fou:
         if ls[mid]==t:
-            x = "found at:"+ str(mid)
+            x = str(mid)
             fou=False
         elif ls[mid]>t:
             l=mid-1
@@ -24,7 +24,7 @@ def main():
     elem = int(input("Enter element to be searched: "))
     ls.sort()
     print(ls)
-    print(b_search(elem, ls))
+    print("found at:"+ b_search(elem, ls))
     
 
 main()
