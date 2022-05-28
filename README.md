@@ -2,4 +2,4 @@
 Binary search algorithm using python
 
 
-List binary search using python
+List binary search using python.
