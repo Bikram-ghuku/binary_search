@@ -29,4 +29,4 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: test
         run: |
-            python -c "from main import b_search; raise "valueError" if b_search(4, [1, 3, 4, 8, 9])!=str(3)"
+            python -c "from main import b_search; raise \"valueError\" if b_search(4, [1, 3, 4, 8, 9])!=str(3)"
